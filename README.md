@@ -1,4 +1,4 @@
-# Wedding Manager - Application de planification de voyages
+# Wedding Manager - Gestionnaire de prestataires de mariage
 
 Présentation du projet
 

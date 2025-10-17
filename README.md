@@ -1,24 +1,20 @@
 # Wedding Manager - Gestionnaire de prestataires de mariage
 
-Présentation du projet
+## Présentation du projet
 
-Stack technique
+Création d'une application web Blazor WebAssembly permettant de gérer les prestataires d’un mariage (photographe, traiteur, DJ, fleuriste, etc.)
 
-Fonctionnalités
-
-Captures d’écran
-
-Instructions d’installation
-
-Lien vers la démo Azure
-
-Ce que j'ai appris
+## Fonctionnalités
 
 ## Compétences techniques
 
 - C#
 - .NET
-- Blazor
-- Entity Framework Core
+- Blazor WebAssembly (frontend)
+- Entity Framework Core + Pomelo MySQL
 
-## Pour commencer
+## Instructions d’installation
+
+## Lien vers la démo Azure
+
+## Ce que j'ai appris

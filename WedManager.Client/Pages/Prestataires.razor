@@ -1,0 +1,19 @@
+﻿@inject HttpClient Http
+@using WedManager.Client.Shared.Models;
+
+@code {
+    List<Prestataire>? prestataires;
+    protected override async Task OnInitializedAsync()
+    {
+        prestataires = await Http.GetFromJsonAsync<List<Prestataire>>("api/prestataires");
+    }
+}
+
+@if (prestataires == null) { <p>Chargement...</p> }
+else {
+    <ul>
+    @foreach(var p in prestataires) {
+        <li>@p.Nom (@p.Type) - @p.Tarif €</li>
+    }
+    </ul>
+}
